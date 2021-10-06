@@ -34,7 +34,7 @@ apiRouter.use(async (req, res, next) => {
 
 apiRouter.use((req, res, next) => {
     if (req.user) {
-        console.log("user is set:", req.user);
+        //console.log("user is set:", req.user);
     }
 
     next();
